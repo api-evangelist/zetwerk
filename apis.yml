@@ -1,0 +1,30 @@
+aid: zetwerk
+name: Zetwerk
+description: 'Zetwerk is a company surfaced as a portfolio company of accel, d1-capital, khosla-ventures,
+  lightspeed-venture-partners and added to the API Evangelist network as a stub for enrichment. Sector:
+  manufacturing. This profile is a lead awaiting the enrichment pipeline.'
+url: https://raw.githubusercontent.com/api-evangelist/zetwerk/refs/heads/main/apis.yml
+x-type: company
+x-source: vc-portfolio
+x-backed-by:
+- accel
+- d1-capital
+- khosla-ventures
+- lightspeed-venture-partners
+x-tier: stub
+x-tier-reason: portfolio-lead
+specificationVersion: '0.20'
+created: '2026-07-17'
+modified: '2026-07-17'
+tags:
+- Company
+- Manufacturing
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: http://www.zetwerk.com
