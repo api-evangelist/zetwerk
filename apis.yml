@@ -1,8 +1,25 @@
 aid: zetwerk
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zetwerk.png
 name: Zetwerk
-description: 'Zetwerk is a company surfaced as a portfolio company of accel, d1-capital, khosla-ventures,
-  lightspeed-venture-partners and added to the API Evangelist network as a stub for enrichment. Sector:
-  manufacturing. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Zetwerk is a global contract-manufacturing and B2B supply-chain company that connects
+  original equipment manufacturers with a vetted network of manufacturing partners across processes
+  including CNC machining, die casting, forging, injection molding, and sheet-metal stamping. It serves
+  industries such as aerospace and defense, automotive, consumer electronics, renewable energy, and
+  industrial equipment, offering production sourcing, quoting, and program management. Backed by Accel,
+  D1 Capital, Khosla Ventures, and Lightspeed Venture Partners, Zetwerk operates as a manufacturing
+  services marketplace rather than a developer platform: as of this enrichment pass it publishes no
+  public API, developer portal, SDKs, or programmatic integration surface.'
 url: https://raw.githubusercontent.com/api-evangelist/zetwerk/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,10 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Manufacturing
+- Contract Manufacturing
+- Supply Chain
+- Sourcing
+- Procurement
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,5 +48,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/zetwerk-domain-security.yml
 - type: Website
-  url: http://www.zetwerk.com
+  url: https://www.zetwerk.com
+- type: Blog
+  url: https://www.zetwerk.com/blog/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
